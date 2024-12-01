@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./assets/Helvetica-Bold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./assets/Helvetica-BoldOblique.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./assets/Helvetica-light.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./assets/Helvetica-Oblique.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  src: url('./assets/Helvetica.ttf') format('ttf');
+}
+
+* {
+  font-family: 'Helvetica';
+}
+
+html {
+  background-color: #f5f7f8;
+}
+
+.format-class .assina,
+.cargo,
+.identifica,
+.ementa {
+  display: none;
+}
+
+.format-class {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.format-class {
+  overflow-x: auto !important;
+}
+
+.format-class table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.format-class th,
+.format-class td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.format-class tr:nth-child(even) {
+  background-color: #f3f3f3;
+}
+
+.format-class tr:hover {
+  background-color: #f1f1f1;
+}
+
+* {
+  scrollbar-color: '#00000063 transparent';
+  scrollbar-width: 'thin';
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-track {
+  margin: 10px 0px;
+  background-color: transparent;
+}
