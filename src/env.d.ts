@@ -3,12 +3,13 @@
 interface ImportMetaEnv {
   readonly VITE_API_URL: string;
   readonly VITE_NODE_ENV: string;
-  readonly VITE_B2C_CLIENT_SECRET: string;
-  readonly VITE_B2C_CLIENT_ID: string;
-  readonly VITE_B2C_POLICE_SIGNIN: string;
-  readonly VITE_B2C_POLICE_SIGNIN_EXTERNAL: string;
-  readonly VITE_B2C_POLICE_RECOVER_PASSWORD: string;
-  readonly VITE_B2C_URL: string;
+  readonly VITE_FIREBASE_API_KEY: string;
+  readonly VITE_FIREBASE_APP_ID: string;
+  readonly VITE_FIREBASE_AUTH_DOMAIN: string;
+  readonly VITE_FIREBASE_MEASUREMENT_ID: string;
+  readonly VITE_FIREBASE_MESSAGING_SENDER_ID: string;
+  readonly VITE_FIREBASE_PROJECT_ID: string;
+  readonly VITE_FIREBASE_STORAGE_BUCKET: string;
 }
 
 interface ImportMeta {

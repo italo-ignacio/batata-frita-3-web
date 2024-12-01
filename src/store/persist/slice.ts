@@ -46,9 +46,8 @@ const persistSlice = createSlice({
     setTheme(state: PersistState, action: PayloadAction<'dark' | 'light'>) {
       state.theme = action.payload;
     },
-    updateUserToken(state: PersistState, action: PayloadAction<{ newToken: string; user: User }>) {
+    updateUserToken(state: PersistState, action: PayloadAction<{ newToken: string }>) {
       state.accessToken = action.payload.newToken;
-      state.user = action.payload.user;
     }
   }
 });

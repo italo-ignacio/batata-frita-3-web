@@ -89,5 +89,5 @@
   "[typescriptreact]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "cSpell.words": ["adcs", "Adis", "adpfs", "dejur", "fiesp", "infralegal"]
+  "cSpell.words": ["adcs", "Adis", "adpfs", "dejur", "fiesp", "infralegal", "VITE"]
 }
